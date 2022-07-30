@@ -12,10 +12,10 @@ print(frutas[0:1])
 for fruta in frutas:
     print(fruta, end=' ') #end=' ' agrega un espacio para que no se salten las lineas
 
-# frutas[1] = 'pera'  ----> no deja modificar porque es una trupla
+# frutas[1] = 'pera'  ----> no deja modificar porque es una tupla
 
-frutasLista = list(frutas) ##convierte una trupla a una lista
+frutasLista = list(frutas) ##convierte una tupla a una lista
 frutasLista[0] = 'Uva' #Modifica el valor 0 por Uva
 frutas = tuple(frutasLista) #tuple que es tupla, cambia frutaLista por trupla ya que se cambio el valor de 0
 print('\n', frutas)
-# del frutas   ---->no se puede ejecutar este comando porque es una trupla i es inmutable
+# del frutas   ---->no se puede ejecutar este comando porque es una tupla i es inmutable
