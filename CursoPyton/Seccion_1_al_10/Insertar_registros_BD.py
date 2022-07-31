@@ -8,7 +8,7 @@ try:
             sentencia = 'INSERT INTO persona(nombre, apellido, email) VALUES (%s, %s, %s)'
             valores = ('Carlos','Lara','clara@gmail.com')
             cursor.execute(sentencia, valores)
-            conexion.commit()#commit guardara los cambios en la base de datos
+            ##conexion.commit()#commit guardara los cambios en la base de datos
             ##Al usar with, el commit se ejecuta automático, así que no hay que colocarse manuelmente
             registros_insertados = cursor.rowcount #rowcount nos dice cuantos registros se han incertado
             print(f'Registros insertados: {registros_insertados}')
