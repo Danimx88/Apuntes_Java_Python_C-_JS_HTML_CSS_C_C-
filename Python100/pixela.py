@@ -3,8 +3,8 @@ import requests
 pixela_endpoint = "https://pixe.la/v1/users"
 
 user_params = {
-    "token": "hklmds95e9534kmv546dgh4",
-    "username": "danielmx88",
+    "token": "password",
+    "username": "name_user",
     "agreeTermsOfService": "yes",
     "notMinor": "yes",
 }
